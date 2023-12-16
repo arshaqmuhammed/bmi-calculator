@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import logo from './logo bmi.webp';
 import './App.css';
+import Bmi from './components/bmi/Bmi';
+// import Result from './components/result/Result';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img src={logo} alt="" />
+      <p>BMI Calculator</p>
+      <div className='body-container'>
+      <Bmi />
+      </div>
     </div>
   );
 }

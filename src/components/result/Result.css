@@ -1,0 +1,27 @@
+.result-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #8ca8bb ;
+    width: 500px;
+    height: 80px;
+    padding: 20px;
+    border-radius: 14px;
+    margin: 20px;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.result-container:hover{
+    background-color: #14b8ea;
+    transform: scale(1.01);
+    transition: ease-in-out;
+  }
+  table{
+    width: 100%;
+  }
+  td{
+    font-size: larger;
+    font-weight: 600;
+     ;
+  }
